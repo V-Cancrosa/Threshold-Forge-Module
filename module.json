@@ -2,7 +2,7 @@
   "id": "threshold",
   "title": "Threshold — Environment Interaction Framework",
   "description": "<p><strong>Threshold</strong> turns Foundry's walls into real doors, windows and barriers. System-agnostic: dungeons, starships, haunted manors and cyberpunk towers alike.</p><ul><li><strong>15 ready-made barriers:</strong> see-through gates, glass and frosted-glass doors, windows, curtains, bars, arrow slits, force fields, barricades and more.</li><li><strong>Independent channels:</strong> movement, sight, light, sound, cover and projectiles, each set per state: closed, open, ajar, locked, damaged.</li><li><strong>Doors that really open ajar:</strong> the leaf swings on its hinge and Foundry's vision shows only what can be seen through the gap. Alt + mouse wheel on the door icon, for GMs and players.</li><li><strong>Durability:</strong> a bar on the map and damage/repair macros; smashed windows and broken barricades stop blocking what they no longer can.</li><li><strong>16 textures</strong>, a Threshold tab in the wall sheet with a live state matrix, and an illustrated in-game guide (English and Polish).</li></ul>",
-  "version": "0.10.2",
+  "version": "0.11.0",
   "authors": [
     {
       "name": "V-Cancrosa"
