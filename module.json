@@ -26,7 +26,9 @@
     }
   ],
   "compatibility": {
-    "minimum": "14"
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
   },
   "esmodules": [
     "scripts/main.js"
