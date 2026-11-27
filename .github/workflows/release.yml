@@ -62,7 +62,15 @@ jobs:
             fi
           done
           exit $missing
-
+        - name: First interaction
+  uses: actions/first-interaction@v1.3.0
+  with:
+    # Token for the repository. Can be passed in using {{ secrets.GITHUB_TOKEN }}
+    repo-token: 
+    # Comment to post on an individual's first issue
+    issue-message: # optional
+    # Comment to post on an individual's first pull request
+    pr-message: # optional
       # Not marked as prerelease on purpose: /releases/latest/ only resolves to
       # non-prerelease releases, and Foundry installs through that manifest URL.
       - name: Publish release
